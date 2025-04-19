@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 2rem;
+}
+
+#intro, #how-it-works, #about {
+    padding: 40px;
+}
+
+.ai-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
